@@ -1,0 +1,59 @@
+# Python bytecode & cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+env/
+venv/
+.venv/
+
+# Environment variables (API keys, secrets, config)
+.env
+.env.*
+
+# macOS system files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# JetBrains IDEs (PyCharm, WebStorm, etc.)
+.idea/
+
+# Flask-related files
+instance/
+*.db
+*.sqlite3
+
+# PDF and report artifacts
+*.pdf
+*.html
+
+# Render logs or build artifacts (if custom builds)
+build/
+*.log
+
+# OS-specific backup files
+*~
+*.swp
+*.bak
+*.tmp
+
+# Jupyter Notebooks (if any)
+.ipynb_checkpoints/
+
+# pyenv, poetry or pipenv
+.python-version
+Pipfile.lock
+poetry.lock
+
+# GitHub or deployment-related
+*.pem
+*.key
+*.crt
+
+# System temp
+tmp/
+temp/
