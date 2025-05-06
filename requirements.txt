@@ -1,0 +1,7 @@
+flask
+gunicorn
+requests
+openai
+pdfkit
+python-dotenv
+jinja2
